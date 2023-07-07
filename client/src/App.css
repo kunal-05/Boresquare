@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+	height: 60px;
+	position: absolute;
+	top: 8px;
+	left: 16px;
+}
+
+.App-header {
+	background-color: #6880a4;
+	height: 80px;
+	padding: 20px;
+	color: #222;
+}
+
+.App-title {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
+}
+
+.showlink {
+	padding: 0.4rem 0.8rem;
+	background-color: white;
+	border-radius: 3px;
+	color: #1e8678;
+	text-decoration: none !important;
+	margin: 5px;
+}
+div {
+	text-align: center;
+}
+
+.showlink:hover {
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+}
+.title {
+	font-weight: bold;
+	color: #777ad4;
+
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  }
+  
+  li {
+	float: right;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+	background-color: #111;
+  }
+
+.location{
+	align-items:flex-end;
+}
+
+.get-more-btn {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 20px;
+	background-color: #1e8678;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .get-more-btn:hover {
+	background-color: #00665c;
+  }
